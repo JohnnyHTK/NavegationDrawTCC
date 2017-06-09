@@ -54,7 +54,7 @@ private EditText editText;
 
         Button btnGerar = (Button) findViewById(R.id.button);
 
-       btnGerar.setOnClickListener(new View.OnClickListener() {
+       /*btnGerar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -73,7 +73,7 @@ private EditText editText;
                     e.printStackTrace();
                 }
             }
-        });
+        });*/
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(

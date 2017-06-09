@@ -30,7 +30,7 @@ public class Tela1 extends Fragment {
     View MyView;
 
     //QrActivity qr = new QrActivity();
-
+    private ImageView imageView;
 
     @Nullable
     @Override
@@ -41,4 +41,14 @@ public class Tela1 extends Fragment {
 
     }
 
-}
+
+
+
+
+
+    }
+
+
+
+
+
