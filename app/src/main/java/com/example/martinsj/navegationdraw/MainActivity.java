@@ -88,7 +88,7 @@ private EditText editText;
     }
 
     @Override
-    public void onBackPressed() {
+    public void onBackPressed() { // Utilza o botão voltar do celular pra retornar uma tela.
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
@@ -121,7 +121,7 @@ private EditText editText;
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
+    public boolean onNavigationItemSelected(MenuItem item) { // aqui seleciona as telas do navegationDraw
         // Handle navigation view item clicks here.
         int id = item.getItemId();
         FragmentManager fragmentMenager= getFragmentManager();

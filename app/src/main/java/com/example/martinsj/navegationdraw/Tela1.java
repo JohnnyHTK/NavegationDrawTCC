@@ -34,7 +34,7 @@ public class Tela1 extends Fragment {
 
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) { // retorna o layout associado com o botão
         MyView = inflater.inflate(R.layout.tela1, container, false);
         return MyView;
 
